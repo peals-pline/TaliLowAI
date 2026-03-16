@@ -80,7 +80,7 @@ const translations = {
       company: 'Company',
       legal: 'Legal',
       disclaimer: 'Disclaimer: Cryptocurrency trading involves high risk and is not suitable for all investors. Past performance is not indicative of future results.',
-      rights: '© 2024 TaliLow AI. All Rights Reserved.'
+      rights: '© 2026 TaliLow AI. All Rights Reserved.'
     },
     auth: {
       login: 'Log In',
