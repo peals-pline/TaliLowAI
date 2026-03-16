@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-obsidian: #05070D;
+  --color-cyber-lime: #D8FF4B;
+  --color-plasma-blue: #00A9FF;
+  --color-ghost-gray: rgba(255, 255, 255, 0.05);
+  
+  --color-bg: var(--color-obsidian);
+  --color-text: #FFFFFF;
+}
+
+body {
+  background-color: var(--color-obsidian);
+  color: #FFFFFF;
+  font-family: "Geist", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for a sleek look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-obsidian);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
